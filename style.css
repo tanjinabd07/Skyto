@@ -1,0 +1,190 @@
+.top-header{
+    height: 25vh;
+    width: 100%;
+    align-items: center;
+    
+} 
+ .icon{
+    font-size: 35px;
+    color: orange;
+    padding-right: 10px;
+ }
+.social-icon{
+    font-size: 30px;
+}
+/* feature section start */
+.features{
+    
+}
+/* feature section end */
+   
+    /* cover section start */
+    .cover-img{
+        background-image: url("images/nature.jpg");
+        width: 100%;
+        height: 110vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        margin-bottom: 40px;
+    }
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: black;
+        opacity: 0.5;
+       
+    }
+    .cover-img .cover-content{
+        color: white;
+        position: relative;
+        z-index: 999;
+    }
+    .cover-img .sub-title{
+        color: orangered;
+        position: relative;
+    }
+    .sub-title::after {
+        content: '';
+        width:70px;
+        height: 4px;
+        background-color: red;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+    }
+    .cover-img .title{
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 48px;
+        text-transform: capitalize;
+    }
+    .cover-img .content{
+        font-size: 18px;
+    }
+    .cover-img .button a{
+        text-decoration: none;
+        background-color: orangered;
+        color: #fff;
+        padding: 16px 36px;
+        border-radius: 3px;
+        font-size: 16px;
+        font-weight: 600;
+    } 
+    .cover-img .icon i{
+        font-size:80px;
+        padding-top: 50%;
+        padding-left: 50%;
+       color: #fff;
+    }
+    .cover-img .numbering{
+        background-color: orangered;
+        position: relative;
+        z-index: 999;
+        /* padding: 50px 50px 40px 50px; */
+      }
+    /* cover section end */
+    /* numbering section start */
+    .numbering .number-stats{
+        padding: 40px 50px 40px 90px;
+    }
+      .numbering .counter-grid{
+        justify-content: center;
+        font-size: 46px;
+        font-weight: 700;
+        color: black;
+        margin: 0px 0px 20px 0px;
+    }
+    .numbering h3{
+        font-size: 28px;
+        color: #fff;
+    }
+     /* numbering section end */
+     /* project section start */
+     .project{
+        margin-top: 200px;
+        margin-bottom: 100px;
+     }
+     .project .sub-title{
+        color: orange;
+        font-size: 20px;
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: 2px;
+    }
+     .sub-title::after{
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 3px;
+        background-color: orange;
+       border-bottom: -8px;
+       left: 45%;
+       
+    }
+
+    /* quality section start */
+    .quality{
+
+    }
+    .quality .sub-title{
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: orange;
+        position: relative;
+        display: inline-block;
+    }
+    .sub-title::after{
+        content: "";
+        position: absolute;
+        width: 40px;
+        height: 3px;
+        background-color: orange;
+        left: 0;
+       border-bottom: -10;
+
+    }
+    /* quality section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /* project section end */
+
+
+
+      /* .practice .title{
+        font-size: Capitalize;
+        font-weight: 600;
+        padding-bottom: 2px;
+        color: orange;
+        position: relative;
+      }
+      .title::after{
+       content: '';
+       width: 190px;
+       height: 4px;
+       position: absolute;
+       background-color: orange;
+       bottom: -8px;
+       left: 0;
+      } */
